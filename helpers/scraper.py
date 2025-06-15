@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 import requests
 import time
 import json
+import re
 
 service = EdgeService(executable_path="../edgedriver_win64/msedgedriver.exe")
 driver = webdriver.Edge(service=service)
@@ -64,10 +65,23 @@ try:
 
                         for row in rows:
                             cols = row.find_all("td")
+                            raw_methods = cols[2].text.strip()
+                            methods = re.findall(r'(ĐT THPT|ĐGNL HCM|ĐGNL HN|ĐGTD BK|Kết Hợp|Ưu Tiên|CCQT)', raw_methods)
+                            method_map = {
+                                "ĐT THPT": "Điểm thi tốt nghiệp THPT",
+                                "ĐGNL HCM": "Đánh giá năng lực ĐHQG HCM",
+                                "ĐGNL HN": "Đánh giá năng lực ĐHQG Hà Nội",
+                                "ĐGTD BK": "Đánh giá tư duy Bách Khoa",
+                                "Kết Hợp": "Xét tuyển kết hợp",
+                                "Ưu Tiên": "Xét tuyển thẳng / ưu tiên",
+                                "CCQT": "Chứng chỉ quốc tế"
+                            }
+                            methods_detail = [{"code": m, "desc": method_map.get(m, "")} for m in methods]
                             if len(cols) >= 4:
                                 truong_list.append({
                                     "ten_truong": cols[0].text.strip(),
-                                    "so_nganh": cols[1].text.strip()
+                                    "so_nganh": cols[1].text.strip(),
+                                    "ptxt": methods_detail,
                                 })
 
                     except Exception as e:
@@ -83,7 +97,8 @@ try:
 
             all_khoi_nganh.append({
                 "khoi_nganh": khoi_nganh_name,
-                "nganh": nganh_list
+                "nganh": nganh_list,
+            
             })
 
         except Exception as e:
