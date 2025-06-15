@@ -1,0 +1,2041 @@
+[
+  {
+    "khoi_nganh": "Kế toán - Kiểm toán\n2 ngành",
+    "nganh": [
+      {
+        "ten_nganh": "Kế toán",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ke-toan-1.html"
+      },
+      {
+        "ten_nganh": "Kiểm toán",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/kiem-toan-2.html"
+      }
+    ]
+  },
+  {
+    "khoi_nganh": "Tài chính - Ngân hàng - Bảo hiểm\n7 ngành",
+    "nganh": [
+      {
+        "ten_nganh": "Tài chính",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/tai-chinh-3.html"
+      },
+      {
+        "ten_nganh": "Ngân hàng",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ngan-hang-4.html"
+      },
+      {
+        "ten_nganh": "Tài chính - Ngân hàng",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/tai-chinh-ngan-hang-5.html"
+      },
+      {
+        "ten_nganh": "Bảo hiểm",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/bao-hiem-6.html"
+      },
+      {
+        "ten_nganh": "Bất động sản",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/bat-dong-san-7.html"
+      },
+      {
+        "ten_nganh": "Công nghệ tài chính",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-tai-chinh-8.html"
+      },
+      {
+        "ten_nganh": "Thị trường chứng khoán",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/thi-truong-chung-khoan-9.html"
+      }
+    ]
+  },
+  {
+    "khoi_nganh": "Kinh tế - Quản trị kinh doanh - Thương Mại\n18 ngành",
+    "nganh": [
+      {
+        "ten_nganh": "Kinh doanh",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/kinh-doanh-10.html"
+      },
+      {
+        "ten_nganh": "Kinh tế",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/kinh-te-11.html"
+      },
+      {
+        "ten_nganh": "Quản trị kinh doanh",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-tri-kinh-doanh-12.html"
+      },
+      {
+        "ten_nganh": "Logistics và chuỗi cung ứng",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/logistics-va-chuoi-cung-ung-13.html"
+      },
+      {
+        "ten_nganh": "Kinh tế phát triển",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/kinh-te-phat-trien-15.html"
+      },
+      {
+        "ten_nganh": "Kinh tế quốc tế",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/kinh-te-quoc-te-16.html"
+      },
+      {
+        "ten_nganh": "Kinh tế số",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/kinh-te-so-17.html"
+      },
+      {
+        "ten_nganh": "Kinh tế vận tải",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/kinh-te-van-tai-18.html"
+      },
+      {
+        "ten_nganh": "Phân tích kinh doanh, tài chính",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/phan-tich-kinh-doanh-tai-chinh-20.html"
+      },
+      {
+        "ten_nganh": "Hệ thống thông tin quản lý",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/he-thong-thong-tin-quan-ly-21.html"
+      },
+      {
+        "ten_nganh": "Quản lý, quản trị",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-ly-quan-tri-22.html"
+      },
+      {
+        "ten_nganh": "Khoa học quản lý",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/khoa-hoc-quan-ly-23.html"
+      },
+      {
+        "ten_nganh": "Quản trị và phân tích dữ liệu",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-tri-va-phan-tich-du-lieu-24.html"
+      },
+      {
+        "ten_nganh": "Thẩm định giá và quản trị tài sản",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/tham-dinh-gia-va-quan-tri-tai-san-25.html"
+      },
+      {
+        "ten_nganh": "Truyền thông doanh nghiệp",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/truyen-thong-doanh-nghiep-26.html"
+      },
+      {
+        "ten_nganh": "Thương mại điện tử",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/thuong-mai-dien-tu-48.html"
+      },
+      {
+        "ten_nganh": "Phân tích dữ liệu kinh doanh",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/phan-tich-du-lieu-kinh-doanh-517.html"
+      },
+      {
+        "ten_nganh": "Kinh tế đầu tư",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/kinh-te-dau-tu-519.html"
+      }
+    ]
+  },
+  {
+    "khoi_nganh": "Công nghệ thông tin - Tin học\n23 ngành",
+    "nganh": [
+      {
+        "ten_nganh": "Hệ thống thông tin quản lý",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/he-thong-thong-tin-quan-ly-21.html"
+      },
+      {
+        "ten_nganh": "Công nghệ thông tin",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-thong-tin-27.html"
+      },
+      {
+        "ten_nganh": "An toàn thông tin",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/an-toan-thong-tin-28.html"
+      },
+      {
+        "ten_nganh": "Công nghệ bán dẫn",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-ban-dan-29.html"
+      },
+      {
+        "ten_nganh": "Công nghệ đa phương tiện",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-da-phuong-tien-30.html"
+      },
+      {
+        "ten_nganh": "Khoa học Máy tính",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/khoa-hoc-may-tinh-31.html"
+      },
+      {
+        "ten_nganh": "Trí tuệ nhân tạo",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/tri-tue-nhan-tao-32.html"
+      },
+      {
+        "ten_nganh": "Công nghệ kỹ thuật điện tử - viễn thông",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-ky-thuat-dien-tu-vien-thong-33.html"
+      },
+      {
+        "ten_nganh": "Công nghệ kỹ thuật máy tính",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-ky-thuat-may-tinh-34.html"
+      },
+      {
+        "ten_nganh": "Công nghệ và đổi mới sáng tạo",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-va-doi-moi-sang-tao-36.html"
+      },
+      {
+        "ten_nganh": "Hệ thống nhúng và IoT",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/he-thong-nhung-va-iot-37.html"
+      },
+      {
+        "ten_nganh": "Hệ thống thông tin",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/he-thong-thong-tin-38.html"
+      },
+      {
+        "ten_nganh": "Khoa học dữ liệu và Trí tuệ nhân tạo",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/khoa-hoc-du-lieu-va-tri-tue-nhan-tao-39.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật dữ liệu",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-du-lieu-40.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật điện tử - viễn thông",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-dien-tu-vien-thong-41.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật Máy tính",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-may-tinh-42.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật phần mềm",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-phan-mem-43.html"
+      },
+      {
+        "ten_nganh": "Mạng máy tính & truyền thông dữ liệu",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/mang-may-tinh-truyen-thong-du-lieu-44.html"
+      },
+      {
+        "ten_nganh": "Quản lý thông tin",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-ly-thong-tin-45.html"
+      },
+      {
+        "ten_nganh": "Robot và trí tuệ nhân tạo",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/robot-va-tri-tue-nhan-tao-46.html"
+      },
+      {
+        "ten_nganh": "Thiết kế vi mạch",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/thiet-ke-vi-mach-47.html"
+      },
+      {
+        "ten_nganh": "Thương mại điện tử",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/thuong-mai-dien-tu-48.html"
+      },
+      {
+        "ten_nganh": "Truyền thông đa phương tiện",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/truyen-thong-da-phuong-tien-49.html"
+      }
+    ]
+  },
+  {
+    "khoi_nganh": "Báo chí - Marketing - Quảng cáo - PR\n11 ngành",
+    "nganh": [
+      {
+        "ten_nganh": "Báo chí",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/bao-chi-50.html"
+      },
+      {
+        "ten_nganh": "Marketing",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/marketing-51.html"
+      },
+      {
+        "ten_nganh": "Truyền thông Marketing",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/truyen-thong-marketing-52.html"
+      },
+      {
+        "ten_nganh": "Quan hệ công chúng",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-he-cong-chung-53.html"
+      },
+      {
+        "ten_nganh": "Quản lí giải trí và sự kiện",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-li-giai-tri-va-su-kien-55.html"
+      },
+      {
+        "ten_nganh": "Quản trị kinh doanh & Marketing",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-tri-kinh-doanh-marketing-56.html"
+      },
+      {
+        "ten_nganh": "Quản trị thương hiệu",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-tri-thuong-hieu-57.html"
+      },
+      {
+        "ten_nganh": "Truyền thông, quảng cáo",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/truyen-thong-quang-cao-58.html"
+      },
+      {
+        "ten_nganh": "Xuất bản và kinh doanh xuất bản phẩm",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/xuat-ban-va-kinh-doanh-xuat-ban-pham-59.html"
+      },
+      {
+        "ten_nganh": "Quan hệ quốc tế",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-he-quoc-te-168.html"
+      },
+      {
+        "ten_nganh": "Digital Marketing",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/digital-marketing-514.html"
+      }
+    ]
+  },
+  {
+    "khoi_nganh": "Sư phạm - Giáo dục\n35 ngành",
+    "nganh": [
+      {
+        "ten_nganh": "Công nghệ giáo dục",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-giao-duc-60.html"
+      },
+      {
+        "ten_nganh": "Sư phạm Toán",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/su-pham-toan-61.html"
+      },
+      {
+        "ten_nganh": "Sư phạm Vật lý",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/su-pham-vat-ly-62.html"
+      },
+      {
+        "ten_nganh": "Sư phạm Ngữ văn",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/su-pham-ngu-van-63.html"
+      },
+      {
+        "ten_nganh": "Sư phạm Tiếng Anh",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/su-pham-tieng-anh-64.html"
+      },
+      {
+        "ten_nganh": "Sư phạm Hóa học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/su-pham-hoa-hoc-65.html"
+      },
+      {
+        "ten_nganh": "Sư phạm Sinh học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/su-pham-sinh-hoc-66.html"
+      },
+      {
+        "ten_nganh": "Sư phạm Lịch sử",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/su-pham-lich-su-67.html"
+      },
+      {
+        "ten_nganh": "Sư phạm Địa lý",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/su-pham-dia-ly-68.html"
+      },
+      {
+        "ten_nganh": "Sư phạm Lịch sử - Địa lý",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/su-pham-lich-su-dia-ly-69.html"
+      },
+      {
+        "ten_nganh": "Sư phạm Khoa học tự nhiên",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/su-pham-khoa-hoc-tu-nhien-70.html"
+      },
+      {
+        "ten_nganh": "Sư phạm Âm nhạc",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/su-pham-am-nhac-71.html"
+      },
+      {
+        "ten_nganh": "Sư phạm Công nghệ",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/su-pham-cong-nghe-72.html"
+      },
+      {
+        "ten_nganh": "Sư phạm Mỹ thuật",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/su-pham-my-thuat-73.html"
+      },
+      {
+        "ten_nganh": "Sư phạm Tiếng Đức",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/su-pham-tieng-duc-74.html"
+      },
+      {
+        "ten_nganh": "Sư phạm Tiếng H'mong",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/su-pham-tieng-hmong-75.html"
+      },
+      {
+        "ten_nganh": "Sư phạm Tiếng Hàn Quốc",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/su-pham-tieng-han-quoc-76.html"
+      },
+      {
+        "ten_nganh": "Sư phạm Tiếng Nga",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/su-pham-tieng-nga-77.html"
+      },
+      {
+        "ten_nganh": "Sư phạm Tiếng Nhật",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/su-pham-tieng-nhat-78.html"
+      },
+      {
+        "ten_nganh": "Sư phạm Tiếng Pháp",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/su-pham-tieng-phap-79.html"
+      },
+      {
+        "ten_nganh": "Sư phạm Tiếng Trung",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/su-pham-tieng-trung-80.html"
+      },
+      {
+        "ten_nganh": "Sư phạm Tin học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/su-pham-tin-hoc-81.html"
+      },
+      {
+        "ten_nganh": "Sư phạm Kỹ thuật công nghiệp",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/su-pham-ky-thuat-cong-nghiep-82.html"
+      },
+      {
+        "ten_nganh": "Giáo dục Chính trị",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/giao-duc-chinh-tri-83.html"
+      },
+      {
+        "ten_nganh": "Giáo dục Công dân",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/giao-duc-cong-dan-84.html"
+      },
+      {
+        "ten_nganh": "Giáo dục Đặc biệt",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/giao-duc-dac-biet-85.html"
+      },
+      {
+        "ten_nganh": "Giáo dục học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/giao-duc-hoc-86.html"
+      },
+      {
+        "ten_nganh": "Giáo dục Mầm non",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/giao-duc-mam-non-87.html"
+      },
+      {
+        "ten_nganh": "Giáo dục pháp luật",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/giao-duc-phap-luat-88.html"
+      },
+      {
+        "ten_nganh": "Giáo dục Quốc phòng - An ninh",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/giao-duc-quoc-phong-an-ninh-89.html"
+      },
+      {
+        "ten_nganh": "Giáo dục Thể chất",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/giao-duc-the-chat-90.html"
+      },
+      {
+        "ten_nganh": "Giáo dục Tiểu học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/giao-duc-tieu-hoc-91.html"
+      },
+      {
+        "ten_nganh": "Hỗ trợ giáo dục người khuyết tật",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ho-tro-giao-duc-nguoi-khuyet-tat-92.html"
+      },
+      {
+        "ten_nganh": "Khoa học Giáo dục và Khác",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/khoa-hoc-giao-duc-va-khac-93.html"
+      },
+      {
+        "ten_nganh": "Quản lý giáo dục",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-ly-giao-duc-94.html"
+      }
+    ]
+  },
+  {
+    "khoi_nganh": "Y - Dược\n20 ngành",
+    "nganh": [
+      {
+        "ten_nganh": "Y khoa",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/y-khoa-95.html"
+      },
+      {
+        "ten_nganh": "Răng Hàm Mặt",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/rang-ham-mat-96.html"
+      },
+      {
+        "ten_nganh": "Dược học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/duoc-hoc-97.html"
+      },
+      {
+        "ten_nganh": "Điều dưỡng",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/dieu-duong-98.html"
+      },
+      {
+        "ten_nganh": "Y học cổ truyền",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/y-hoc-co-truyen-99.html"
+      },
+      {
+        "ten_nganh": "Y học dự phòng",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/y-hoc-du-phong-100.html"
+      },
+      {
+        "ten_nganh": "Y tế công cộng",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/y-te-cong-cong-101.html"
+      },
+      {
+        "ten_nganh": "Dinh dưỡng",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/dinh-duong-102.html"
+      },
+      {
+        "ten_nganh": "Hóa dược",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/hoa-duoc-103.html"
+      },
+      {
+        "ten_nganh": "Hộ Sinh",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ho-sinh-104.html"
+      },
+      {
+        "ten_nganh": "Khoa học và Công nghệ y khoa",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/khoa-hoc-va-cong-nghe-y-khoa-105.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật hình ảnh y học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-hinh-anh-y-hoc-106.html"
+      },
+      {
+        "ten_nganh": "Kỹ Thuật Phục Hồi Chức Năng",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-phuc-hoi-chuc-nang-107.html"
+      },
+      {
+        "ten_nganh": "Quản lý bệnh viện",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-ly-benh-vien-108.html"
+      },
+      {
+        "ten_nganh": "Vật lý Y khoa",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/vat-ly-y-khoa-109.html"
+      },
+      {
+        "ten_nganh": "Công nghệ sinh học Y Dược",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-sinh-hoc-y-duoc-110.html"
+      },
+      {
+        "ten_nganh": "Công nghệ thẩm mỹ",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-tham-my-111.html"
+      },
+      {
+        "ten_nganh": "Dược liệu và hợp chất thiên nhiên",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/duoc-lieu-va-hop-chat-thien-nhien-112.html"
+      },
+      {
+        "ten_nganh": "Khúc xạ nhãn khoa",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/khuc-xa-nhan-khoa-113.html"
+      },
+      {
+        "ten_nganh": "Công nghệ kỹ thuật điện tử y sinh",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-ky-thuat-dien-tu-y-sinh-114.html"
+      }
+    ]
+  },
+  {
+    "khoi_nganh": "Bác sĩ thú y\n3 ngành",
+    "nganh": [
+      {
+        "ten_nganh": "Thú y",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/thu-y-115.html"
+      },
+      {
+        "ten_nganh": "Chăn nuôi",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/chan-nuoi-116.html"
+      },
+      {
+        "ten_nganh": "Chăn nuôi thú y",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/chan-nuoi-thu-y-117.html"
+      }
+    ]
+  },
+  {
+    "khoi_nganh": "Công an - Quân đội\n30 ngành",
+    "nganh": [
+      {
+        "ten_nganh": "Công nghệ thông tin",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-thong-tin-27.html"
+      },
+      {
+        "ten_nganh": "An toàn thông tin",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/an-toan-thong-tin-28.html"
+      },
+      {
+        "ten_nganh": "Y khoa",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/y-khoa-95.html"
+      },
+      {
+        "ten_nganh": "Dược học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/duoc-hoc-97.html"
+      },
+      {
+        "ten_nganh": "Y học dự phòng",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/y-hoc-du-phong-100.html"
+      },
+      {
+        "ten_nganh": "An ninh mạng và phòng chống tội phạm công nghệ cao",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/an-ninh-mang-va-phong-chong-toi-pham-cong-nghe-cao-118.html"
+      },
+      {
+        "ten_nganh": "Biên phòng",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/bien-phong-120.html"
+      },
+      {
+        "ten_nganh": "Chỉ huy kỹ thuật Công binh",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/chi-huy-ky-thuat-cong-binh-121.html"
+      },
+      {
+        "ten_nganh": "Chỉ huy Kỹ thuật hóa học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/chi-huy-ky-thuat-hoa-hoc-122.html"
+      },
+      {
+        "ten_nganh": "Chỉ huy Tham mưu - thông tin",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/chi-huy-tham-muu-thong-tin-123.html"
+      },
+      {
+        "ten_nganh": "Chỉ huy tham mưu Đặc công",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/chi-huy-tham-muu-dac-cong-124.html"
+      },
+      {
+        "ten_nganh": "Chỉ huy tham mưu Hải quân",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/chi-huy-tham-muu-hai-quan-125.html"
+      },
+      {
+        "ten_nganh": "Chỉ huy tham mưu không quân (Phi công quân sự)",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/chi-huy-tham-muu-khong-quan-phi-cong-quan-su-126.html"
+      },
+      {
+        "ten_nganh": "Chỉ huy tham mưu Lục quân",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/chi-huy-tham-muu-luc-quan-127.html"
+      },
+      {
+        "ten_nganh": "Chỉ huy tham mưu Pháo binh",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/chi-huy-tham-muu-phao-binh-128.html"
+      },
+      {
+        "ten_nganh": "Chỉ huy Tham mưu Phòng không, Không quân và Tác chiến điện tử",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/chi-huy-tham-muu-phong-khong-khong-quan-va-tac-chien-dien-tu-129.html"
+      },
+      {
+        "ten_nganh": "Chỉ huy tham mưu Tăng Thiết giáp",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/chi-huy-tham-muu-tang-thiet-giap-130.html"
+      },
+      {
+        "ten_nganh": "Chỉ huy quản lý kỹ thuật",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/chi-huy-quan-ly-ky-thuat-131.html"
+      },
+      {
+        "ten_nganh": "Hậu cần quân sự",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/hau-can-quan-su-132.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật - Hậu cần",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-hau-can-133.html"
+      },
+      {
+        "ten_nganh": "Nghiệp vụ an ninh",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/nghiep-vu-an-ninh-134.html"
+      },
+      {
+        "ten_nganh": "Phòng cháy chữa cháy và cứu nạn, cứu hộ",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/phong-chay-chua-chay-va-cuu-nan-cuu-ho-135.html"
+      },
+      {
+        "ten_nganh": "Trinh sát kỹ thuật",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/trinh-sat-ky-thuat-136.html"
+      },
+      {
+        "ten_nganh": "Ngôn ngữ Anh",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ngon-ngu-anh-161.html"
+      },
+      {
+        "ten_nganh": "Ngôn ngữ Trung Quốc",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ngon-ngu-trung-quoc-162.html"
+      },
+      {
+        "ten_nganh": "Ngôn ngữ Nga",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ngon-ngu-nga-164.html"
+      },
+      {
+        "ten_nganh": "Quan hệ quốc tế",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-he-quoc-te-168.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật, công nghệ Hàng không",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-cong-nghe-hang-khong-252.html"
+      },
+      {
+        "ten_nganh": "Luật",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/luat-282.html"
+      },
+      {
+        "ten_nganh": "Xây dựng Đảng & CQNN",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/xay-dung-dang-cqnn-373.html"
+      }
+    ]
+  },
+  {
+    "khoi_nganh": "Thiết kế đồ họa - Game - Đa phương tiện\n5 ngành",
+    "nganh": [
+      {
+        "ten_nganh": "Công nghệ đa phương tiện",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-da-phuong-tien-30.html"
+      },
+      {
+        "ten_nganh": "Truyền thông đa phương tiện",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/truyen-thong-da-phuong-tien-49.html"
+      },
+      {
+        "ten_nganh": "Thiết kế Đồ hoạ",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/thiet-ke-do-hoa-137.html"
+      },
+      {
+        "ten_nganh": "Thiết kế Công nghiệp",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/thiet-ke-cong-nghiep-138.html"
+      },
+      {
+        "ten_nganh": "Thiết kế Mỹ thuật số",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/thiet-ke-my-thuat-so-139.html"
+      }
+    ]
+  },
+  {
+    "khoi_nganh": "Xây dựng - Kiến trúc - Giao thông\n22 ngành",
+    "nganh": [
+      {
+        "ten_nganh": "Kinh tế Xây dựng",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/kinh-te-xay-dung-19.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật xây dựng",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-xay-dung-140.html"
+      },
+      {
+        "ten_nganh": "Công nghệ kỹ thuật Xây dựng",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-ky-thuat-xay-dung-141.html"
+      },
+      {
+        "ten_nganh": "Công nghệ kỹ thuật giao thông",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-ky-thuat-giao-thong-142.html"
+      },
+      {
+        "ten_nganh": "Kiến trúc",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/kien-truc-143.html"
+      },
+      {
+        "ten_nganh": "Kiến trúc Cảnh quan",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/kien-truc-canh-quan-144.html"
+      },
+      {
+        "ten_nganh": "Kiến trúc nội thất",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/kien-truc-noi-that-145.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật cơ sở hạ tầng",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-co-so-ha-tang-146.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật xây dựng công trình giao thông",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-xay-dung-cong-trinh-giao-thong-147.html"
+      },
+      {
+        "ten_nganh": "Thiết kế nội thất",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/thiet-ke-noi-that-149.html"
+      },
+      {
+        "ten_nganh": "Quản lý xây dựng",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-ly-xay-dung-150.html"
+      },
+      {
+        "ten_nganh": "Khai thác vận tải",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/khai-thac-van-tai-151.html"
+      },
+      {
+        "ten_nganh": "Kinh tế vận tải",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/kinh-te-van-tai-152.html"
+      },
+      {
+        "ten_nganh": "Đô thị, mỹ thuật đô thị",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/do-thi-my-thuat-do-thi-153.html"
+      },
+      {
+        "ten_nganh": "Quản lý phát triển đô thị và bất động sản",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-ly-phat-trien-do-thi-va-bat-dong-san-154.html"
+      },
+      {
+        "ten_nganh": "Quản lý, khai thác và bảo trì đường cao tốc",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-ly-khai-thac-va-bao-tri-duong-cao-toc-155.html"
+      },
+      {
+        "ten_nganh": "Quy hoạch vùng và đô thị",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quy-hoach-vung-va-do-thi-156.html"
+      },
+      {
+        "ten_nganh": "Thiết kế, quản trị đô thị",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/thiet-ke-quan-tri-do-thi-157.html"
+      },
+      {
+        "ten_nganh": "Xây dựng, quản lý Cầu - đường sắt",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/xay-dung-quan-ly-cau-duong-sat-158.html"
+      },
+      {
+        "ten_nganh": "Xây dựng công trình",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/xay-dung-cong-trinh-159.html"
+      },
+      {
+        "ten_nganh": "Xây dựng và quản lý hạ tầng đô thị",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/xay-dung-va-quan-ly-ha-tang-do-thi-160.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật xây dựng công trình thủy",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-xay-dung-cong-trinh-thuy-238.html"
+      }
+    ]
+  },
+  {
+    "khoi_nganh": "Ngoại giao - Ngoại ngữ\n24 ngành",
+    "nganh": [
+      {
+        "ten_nganh": "Quan hệ công chúng",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-he-cong-chung-53.html"
+      },
+      {
+        "ten_nganh": "Ngôn ngữ Anh",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ngon-ngu-anh-161.html"
+      },
+      {
+        "ten_nganh": "Ngôn ngữ Trung Quốc",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ngon-ngu-trung-quoc-162.html"
+      },
+      {
+        "ten_nganh": "Ngôn ngữ Đức",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ngon-ngu-duc-163.html"
+      },
+      {
+        "ten_nganh": "Ngôn ngữ Nga",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ngon-ngu-nga-164.html"
+      },
+      {
+        "ten_nganh": "Ngôn ngữ Nhật",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ngon-ngu-nhat-165.html"
+      },
+      {
+        "ten_nganh": "Ngôn ngữ Pháp",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ngon-ngu-phap-166.html"
+      },
+      {
+        "ten_nganh": "Quan hệ quốc tế",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-he-quoc-te-168.html"
+      },
+      {
+        "ten_nganh": "Ngôn ngữ Ả Rập",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ngon-ngu-a-rap-169.html"
+      },
+      {
+        "ten_nganh": "Thương mại quốc tế",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/thuong-mai-quoc-te-170.html"
+      },
+      {
+        "ten_nganh": "Ngôn ngữ Bồ Đào Nha",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ngon-ngu-bo-dao-nha-171.html"
+      },
+      {
+        "ten_nganh": "Ngôn ngữ Hàn Quốc",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ngon-ngu-han-quoc-172.html"
+      },
+      {
+        "ten_nganh": "Ngôn ngữ Italia",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ngon-ngu-italia-173.html"
+      },
+      {
+        "ten_nganh": "Ngôn ngữ Khmer",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ngon-ngu-khmer-174.html"
+      },
+      {
+        "ten_nganh": "Ngôn ngữ Thái Lan",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ngon-ngu-thai-lan-175.html"
+      },
+      {
+        "ten_nganh": "Ngôn ngữ và Văn hóa các dân tộc thiểu số Việt Nam",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ngon-ngu-va-van-hoa-cac-dan-toc-thieu-so-viet-nam-176.html"
+      },
+      {
+        "ten_nganh": "Quản trị kinh doanh & Luật",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-tri-kinh-doanh-luat-177.html"
+      },
+      {
+        "ten_nganh": "Tiếng Anh chuyên nghiệp quốc tế",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/tieng-anh-chuyen-nghiep-quoc-te-178.html"
+      },
+      {
+        "ten_nganh": "Tiếng Anh KHKT và Công nghệ",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/tieng-anh-khkt-va-cong-nghe-179.html"
+      },
+      {
+        "ten_nganh": "Tiếng Anh Thương mại",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/tieng-anh-thuong-mai-180.html"
+      },
+      {
+        "ten_nganh": "Tiếng Nhật thương mại",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/tieng-nhat-thuong-mai-181.html"
+      },
+      {
+        "ten_nganh": "Tiếng Pháp thương mại",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/tieng-phap-thuong-mai-182.html"
+      },
+      {
+        "ten_nganh": "Tiếng Trung Thương mại",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/tieng-trung-thuong-mai-183.html"
+      },
+      {
+        "ten_nganh": "Văn hóa và truyền thông xuyên quốc gia",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/van-hoa-va-truyen-thong-xuyen-quoc-gia-184.html"
+      }
+    ]
+  },
+  {
+    "khoi_nganh": "Ngoại thương - Xuất nhập khẩu - Kinh Tế quốc tế\n9 ngành",
+    "nganh": [
+      {
+        "ten_nganh": "Kinh doanh quốc tế",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/kinh-doanh-quoc-te-185.html"
+      },
+      {
+        "ten_nganh": "Logistics",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/logistics-186.html"
+      },
+      {
+        "ten_nganh": "Logistics và Quản lý chuỗi cung ứng",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/logistics-va-quan-ly-chuoi-cung-ung-187.html"
+      },
+      {
+        "ten_nganh": "Kinh tế đối ngoại",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/kinh-te-doi-ngoai-188.html"
+      },
+      {
+        "ten_nganh": "Tài chính quốc tế",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/tai-chinh-quoc-te-189.html"
+      },
+      {
+        "ten_nganh": "Hải quan và Logistics",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/hai-quan-va-logistics-190.html"
+      },
+      {
+        "ten_nganh": "Quản trị Hải quan - Ngoại thương",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-tri-hai-quan-ngoai-thuong-191.html"
+      },
+      {
+        "ten_nganh": "Quản trị và Kinh doanh Quốc tế",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-tri-va-kinh-doanh-quoc-te-192.html"
+      },
+      {
+        "ten_nganh": "Truyền thông quốc tế",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/truyen-thong-quoc-te-193.html"
+      }
+    ]
+  },
+  {
+    "khoi_nganh": "Du lịch-Khách sạn\n12 ngành",
+    "nganh": [
+      {
+        "ten_nganh": "Du lịch",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/du-lich-194.html"
+      },
+      {
+        "ten_nganh": "Hướng dẫn du lịch",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/huong-dan-du-lich-195.html"
+      },
+      {
+        "ten_nganh": "Quản trị dịch vụ du lịch và lữ hành",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-tri-dich-vu-du-lich-va-lu-hanh-196.html"
+      },
+      {
+        "ten_nganh": "Quản trị du lịch và khách sạn",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-tri-du-lich-va-khach-san-197.html"
+      },
+      {
+        "ten_nganh": "Quản trị khách sạn",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-tri-khach-san-198.html"
+      },
+      {
+        "ten_nganh": "Quản trị nhà hàng - khách sạn",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-tri-nha-hang-khach-san-199.html"
+      },
+      {
+        "ten_nganh": "Quản trị nhà hàng và dịch vụ ăn uống",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-tri-nha-hang-va-dich-vu-an-uong-200.html"
+      },
+      {
+        "ten_nganh": "Quản trị sự kiện",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-tri-su-kien-201.html"
+      },
+      {
+        "ten_nganh": "Quốc tế học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quoc-te-hoc-202.html"
+      },
+      {
+        "ten_nganh": "Tài nguyên và Du lịch sinh thái",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/tai-nguyen-va-du-lich-sinh-thai-204.html"
+      },
+      {
+        "ten_nganh": "Văn hóa Du lịch",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/van-hoa-du-lich-205.html"
+      },
+      {
+        "ten_nganh": "Địa lý học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/dia-ly-hoc-386.html"
+      }
+    ]
+  },
+  {
+    "khoi_nganh": "Ô tô - Cơ khí - Chế tạo\n14 ngành",
+    "nganh": [
+      {
+        "ten_nganh": "Thiết kế Công nghiệp",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/thiet-ke-cong-nghiep-138.html"
+      },
+      {
+        "ten_nganh": "Công nghệ kỹ thuật ô tô",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-ky-thuat-o-to-206.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật ô tô",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-o-to-207.html"
+      },
+      {
+        "ten_nganh": "Công nghệ kỹ thuật cơ khí",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-ky-thuat-co-khi-208.html"
+      },
+      {
+        "ten_nganh": "Công nghệ chế tạo máy",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-che-tao-may-209.html"
+      },
+      {
+        "ten_nganh": "Công nghệ kỹ thuật",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-ky-thuat-210.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật cơ điện tử",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-co-dien-tu-212.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật cơ khí",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-co-khi-213.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật cơ khí động lực",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-co-khi-dong-luc-214.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật hệ thống công nghiệp",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-he-thong-cong-nghiep-215.html"
+      },
+      {
+        "ten_nganh": "Vật lý Kỹ thuật",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/vat-ly-ky-thuat-216.html"
+      },
+      {
+        "ten_nganh": "Cơ Kỹ thuật",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/co-ky-thuat-217.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật công nghiệp",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-cong-nghiep-218.html"
+      },
+      {
+        "ten_nganh": "Công nghệ kỹ thuật cơ điện tử",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-ky-thuat-co-dien-tu-220.html"
+      }
+    ]
+  },
+  {
+    "khoi_nganh": "Điện lạnh - Điện tử - Điện - Tự động hóa\n18 ngành",
+    "nganh": [
+      {
+        "ten_nganh": "Điện",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/dien-219.html"
+      },
+      {
+        "ten_nganh": "Công nghệ kỹ thuật cơ điện tử",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-ky-thuat-co-dien-tu-220.html"
+      },
+      {
+        "ten_nganh": "Công nghệ kỹ thuật điện, điện tử",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-ky-thuat-dien-dien-tu-221.html"
+      },
+      {
+        "ten_nganh": "Công nghệ kỹ thuật điều khiển và tự động hóa",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-ky-thuat-dieu-khien-va-tu-dong-hoa-222.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật điện",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-dien-223.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật cơ điện tử",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-co-dien-tu-224.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật Điều khiển - Tự động hoá",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-dieu-khien-tu-dong-hoa-225.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật Nhiệt",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-nhiet-226.html"
+      },
+      {
+        "ten_nganh": "Công nghệ kỹ thuật nhiệt",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-ky-thuat-nhiet-227.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật Robot",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-robot-228.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật robot và trí tuệ nhân tạo",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-robot-va-tri-tue-nhan-tao-229.html"
+      },
+      {
+        "ten_nganh": "Công nghệ kỹ thuật năng lượng",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-ky-thuat-nang-luong-230.html"
+      },
+      {
+        "ten_nganh": "Tự động hóa",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/tu-dong-hoa-231.html"
+      },
+      {
+        "ten_nganh": "Điện tự động",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/dien-tu-dong-232.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật cơ khí, cơ điện",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-co-khi-co-dien-233.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật Điện - Điện tử",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-dien-dien-tu-234.html"
+      },
+      {
+        "ten_nganh": "Quản lý năng lượng",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-ly-nang-luong-235.html"
+      },
+      {
+        "ten_nganh": "Vi mạch bán dẫn",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/vi-mach-ban-dan-236.html"
+      }
+    ]
+  },
+  {
+    "khoi_nganh": "Hàng hải - Thủy lợi - Thời tiết\n16 ngành",
+    "nganh": [
+      {
+        "ten_nganh": "Hải quan và Logistics",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/hai-quan-va-logistics-190.html"
+      },
+      {
+        "ten_nganh": "Khoa học hàng hải",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/khoa-hoc-hang-hai-237.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật xây dựng công trình thủy",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-xay-dung-cong-trinh-thuy-238.html"
+      },
+      {
+        "ten_nganh": "Biến đổi khí hậu và Phát triển bền vững",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/bien-doi-khi-hau-va-phat-trien-ben-vung-239.html"
+      },
+      {
+        "ten_nganh": "Khí tượng và Khí hậu học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/khi-tuong-va-khi-hau-hoc-240.html"
+      },
+      {
+        "ten_nganh": "Kinh tế, kỹ thuật, quản lý Hàng Hải",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/kinh-te-ky-thuat-quan-ly-hang-hai-241.html"
+      },
+      {
+        "ten_nganh": "Điều khiển tàu biển",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/dieu-khien-tau-bien-242.html"
+      },
+      {
+        "ten_nganh": "Đóng tàu & công trình ngoài khơi",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/dong-tau-cong-trinh-ngoai-khoi-243.html"
+      },
+      {
+        "ten_nganh": "Hải dương học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/hai-duong-hoc-244.html"
+      },
+      {
+        "ten_nganh": "Khai thác máy tàu biển",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/khai-thac-may-tau-bien-245.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật biển",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-bien-246.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật Tài nguyên nước",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-tai-nguyen-nuoc-247.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật Tàu thủy",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-tau-thuy-248.html"
+      },
+      {
+        "ten_nganh": "Thiết kế tàu & công trình ngoài khơi",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/thiet-ke-tau-cong-trinh-ngoai-khoi-249.html"
+      },
+      {
+        "ten_nganh": "Thủy văn học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/thuy-van-hoc-250.html"
+      },
+      {
+        "ten_nganh": "Xây dựng công trình thủy",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/xay-dung-cong-trinh-thuy-251.html"
+      }
+    ]
+  },
+  {
+    "khoi_nganh": "Hàng không - Vũ trụ - Hạt nhân\n6 ngành",
+    "nganh": [
+      {
+        "ten_nganh": "Kỹ thuật, công nghệ Hàng không",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-cong-nghe-hang-khong-252.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật hạt nhân",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-hat-nhan-253.html"
+      },
+      {
+        "ten_nganh": "Quản lý hoạt động bay",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-ly-hoat-dong-bay-254.html"
+      },
+      {
+        "ten_nganh": "Phi công quân sự",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/phi-cong-quan-su-255.html"
+      },
+      {
+        "ten_nganh": "Khoa học thông tin địa không gian",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/khoa-hoc-thong-tin-dia-khong-gian-256.html"
+      },
+      {
+        "ten_nganh": "Quản trị kinh doanh hàng không",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-tri-kinh-doanh-hang-khong-257.html"
+      }
+    ]
+  },
+  {
+    "khoi_nganh": "Công nghệ vật liệu\n8 ngành",
+    "nganh": [
+      {
+        "ten_nganh": "Kỹ thuật Vật liệu",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-vat-lieu-258.html"
+      },
+      {
+        "ten_nganh": "Công nghệ vật liệu",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-vat-lieu-259.html"
+      },
+      {
+        "ten_nganh": "Khoa học Vật liệu",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/khoa-hoc-vat-lieu-260.html"
+      },
+      {
+        "ten_nganh": "Công nghệ kỹ thuật Vật liệu xây dựng",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-ky-thuat-vat-lieu-xay-dung-261.html"
+      },
+      {
+        "ten_nganh": "Khoa học Vũ trụ và Công nghệ Vệ tinh",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/khoa-hoc-vu-tru-va-cong-nghe-ve-tinh-262.html"
+      },
+      {
+        "ten_nganh": "Khoa học Y Sinh",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/khoa-hoc-y-sinh-263.html"
+      },
+      {
+        "ten_nganh": "Vật liệu thông minh và trí tuệ nhân tạo",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/vat-lieu-thong-minh-va-tri-tue-nhan-tao-264.html"
+      },
+      {
+        "ten_nganh": "Vật liệu tiên tiến và công nghệ nano",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/vat-lieu-tien-tien-va-cong-nghe-nano-265.html"
+      }
+    ]
+  },
+  {
+    "khoi_nganh": "Công nghệ chế biến thực phẩm\n5 ngành",
+    "nganh": [
+      {
+        "ten_nganh": "Công nghệ Thực phẩm",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-thuc-pham-266.html"
+      },
+      {
+        "ten_nganh": "Đảm bảo chất lượng và an toàn thực phẩm",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/dam-bao-chat-luong-va-an-toan-thuc-pham-267.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật thực phẩm",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-thuc-pham-268.html"
+      },
+      {
+        "ten_nganh": "Quản trị kinh doanh thực phẩm",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-tri-kinh-doanh-thuc-pham-269.html"
+      },
+      {
+        "ten_nganh": "Khoa học chế biến món ăn",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/khoa-hoc-che-bien-mon-an-270.html"
+      }
+    ]
+  },
+  {
+    "khoi_nganh": "Công nghệ In - Giấy\n2 ngành",
+    "nganh": [
+      {
+        "ten_nganh": "Công nghệ kỹ thuật in",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-ky-thuat-in-271.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật in",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-in-272.html"
+      }
+    ]
+  },
+  {
+    "khoi_nganh": "Công nghệ sinh - Hóa\n9 ngành",
+    "nganh": [
+      {
+        "ten_nganh": "Công nghệ hóa học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-hoa-hoc-273.html"
+      },
+      {
+        "ten_nganh": "Công nghệ kỹ thuật hoá học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-ky-thuat-hoa-hoc-274.html"
+      },
+      {
+        "ten_nganh": "Công nghệ Sinh học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-sinh-hoc-275.html"
+      },
+      {
+        "ten_nganh": "Sinh học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/sinh-hoc-276.html"
+      },
+      {
+        "ten_nganh": "Hoá học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/hoa-hoc-277.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật Hóa học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-hoa-hoc-278.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật Sinh học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-sinh-hoc-279.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật Y Sinh",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-y-sinh-280.html"
+      },
+      {
+        "ten_nganh": "Sinh học ứng dụng",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/sinh-hoc-ung-dung-281.html"
+      }
+    ]
+  },
+  {
+    "khoi_nganh": "Luật - Tòa án\n12 ngành",
+    "nganh": [
+      {
+        "ten_nganh": "Quản trị kinh doanh & Luật",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-tri-kinh-doanh-luat-177.html"
+      },
+      {
+        "ten_nganh": "Luật",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/luat-282.html"
+      },
+      {
+        "ten_nganh": "Luật hàng hải",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/luat-hang-hai-283.html"
+      },
+      {
+        "ten_nganh": "Luật hình sự và tố tụng hình sự",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/luat-hinh-su-va-to-tung-hinh-su-284.html"
+      },
+      {
+        "ten_nganh": "Luật kinh doanh",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/luat-kinh-doanh-285.html"
+      },
+      {
+        "ten_nganh": "Luật kinh tế",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/luat-kinh-te-286.html"
+      },
+      {
+        "ten_nganh": "Luật quốc tế",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/luat-quoc-te-287.html"
+      },
+      {
+        "ten_nganh": "Luật thương mại quốc tế",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/luat-thuong-mai-quoc-te-288.html"
+      },
+      {
+        "ten_nganh": "Quản trị - Luật",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-tri-luat-289.html"
+      },
+      {
+        "ten_nganh": "Tài chính ngân hàng & Luật",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/tai-chinh-ngan-hang-luat-290.html"
+      },
+      {
+        "ten_nganh": "Luật dân sự và tố tụng dân sự",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/luat-dan-su-va-to-tung-dan-su-515.html"
+      },
+      {
+        "ten_nganh": "Luật hiến pháp và luật hành chính",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/luat-hien-phap-va-luat-hanh-chinh-516.html"
+      }
+    ]
+  },
+  {
+    "khoi_nganh": "Mỏ - Địa chất\n8 ngành",
+    "nganh": [
+      {
+        "ten_nganh": "Kỹ thuật trắc địa - bản đồ",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-trac-dia-ban-do-291.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật địa chất",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-dia-chat-292.html"
+      },
+      {
+        "ten_nganh": "Địa chất học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/dia-chat-hoc-293.html"
+      },
+      {
+        "ten_nganh": "Công nghệ, kỹ thuật dầu khí",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-ky-thuat-dau-khi-294.html"
+      },
+      {
+        "ten_nganh": "Đá quý Đá mỹ nghệ",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/da-quy-da-my-nghe-295.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật mỏ",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-mo-296.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật địa vật lý",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-dia-vat-ly-297.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật tuyển khoáng",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-tuyen-khoang-298.html"
+      }
+    ]
+  },
+  {
+    "khoi_nganh": "Mỹ thuật - Âm nhạc - Nghệ thuật\n20 ngành",
+    "nganh": [
+      {
+        "ten_nganh": "Công nghệ điện ảnh, truyền hình",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-dien-anh-truyen-hinh-299.html"
+      },
+      {
+        "ten_nganh": "Diễn viên Kịch - Điện ảnh",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/dien-vien-kich-dien-anh-300.html"
+      },
+      {
+        "ten_nganh": "Đạo diễn Điện ảnh, Truyền hình",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/dao-dien-dien-anh-truyen-hinh-301.html"
+      },
+      {
+        "ten_nganh": "Piano",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/piano-302.html"
+      },
+      {
+        "ten_nganh": "Thanh nhạc",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/thanh-nhac-303.html"
+      },
+      {
+        "ten_nganh": "Điêu khắc",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/dieu-khac-304.html"
+      },
+      {
+        "ten_nganh": "Hội họa",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/hoi-hoa-305.html"
+      },
+      {
+        "ten_nganh": "Nhiếp ảnh nghệ thuật",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/nhiep-anh-nghe-thuat-306.html"
+      },
+      {
+        "ten_nganh": "Âm nhạc",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/am-nhac-307.html"
+      },
+      {
+        "ten_nganh": "Digital Art",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/digital-art-308.html"
+      },
+      {
+        "ten_nganh": "Biểu diễn nhạc cụ truyền thống",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/bieu-dien-nhac-cu-truyen-thong-309.html"
+      },
+      {
+        "ten_nganh": "Công nghệ nghệ thuật (Arttech)",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-nghe-thuat-arttech-310.html"
+      },
+      {
+        "ten_nganh": "Nghệ thuật học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/nghe-thuat-hoc-311.html"
+      },
+      {
+        "ten_nganh": "Nghệ thuật tạo hình đương đại",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/nghe-thuat-tao-hinh-duong-dai-312.html"
+      },
+      {
+        "ten_nganh": "Sáng tác âm nhạc",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/sang-tac-am-nhac-522.html"
+      },
+      {
+        "ten_nganh": "Chỉ huy âm nhạc",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/chi-huy-am-nhac-523.html"
+      },
+      {
+        "ten_nganh": "Biểu diễn nhạc cụ phương Tây",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/bieu-dien-nhac-cu-phuong-tay-524.html"
+      },
+      {
+        "ten_nganh": "Nhạc Jazz",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/nhac-jazz-525.html"
+      },
+      {
+        "ten_nganh": "Nghệ thuật thị giác",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/nghe-thuat-thi-giac-526.html"
+      },
+      {
+        "ten_nganh": "Thiết kế sáng tạo",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/thiet-ke-sang-tao-527.html"
+      }
+    ]
+  },
+  {
+    "khoi_nganh": "Tài nguyên - Môi trường\n15 ngành",
+    "nganh": [
+      {
+        "ten_nganh": "Tài nguyên và Du lịch sinh thái",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/tai-nguyen-va-du-lich-sinh-thai-204.html"
+      },
+      {
+        "ten_nganh": "Công nghệ kĩ thuật môi trường",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-ki-thuat-moi-truong-313.html"
+      },
+      {
+        "ten_nganh": "Khoa học môi trường",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/khoa-hoc-moi-truong-314.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật môi trường",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-moi-truong-315.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật cấp thoát nước",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-cap-thoat-nuoc-316.html"
+      },
+      {
+        "ten_nganh": "Quản lý tài nguyên rừng",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-ly-tai-nguyen-rung-317.html"
+      },
+      {
+        "ten_nganh": "Quản lý đất đai",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-ly-dat-dai-318.html"
+      },
+      {
+        "ten_nganh": "Quản lý tài nguyên và môi trường",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-ly-tai-nguyen-va-moi-truong-319.html"
+      },
+      {
+        "ten_nganh": "Tài nguyên và Môi trường",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/tai-nguyen-va-moi-truong-320.html"
+      },
+      {
+        "ten_nganh": "Quản lý tài nguyên",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-ly-tai-nguyen-321.html"
+      },
+      {
+        "ten_nganh": "Bảo hộ, an toàn lao động",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/bao-ho-an-toan-lao-dong-322.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật khí thiên nhiên",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-khi-thien-nhien-323.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật môi trường đô thị",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-moi-truong-do-thi-324.html"
+      },
+      {
+        "ten_nganh": "Tài nguyên nước và môi trường",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/tai-nguyen-nuoc-va-moi-truong-325.html"
+      },
+      {
+        "ten_nganh": "Quản lý biển",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-ly-bien-326.html"
+      }
+    ]
+  },
+  {
+    "khoi_nganh": "Tâm lý\n2 ngành",
+    "nganh": [
+      {
+        "ten_nganh": "Tâm lý học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/tam-ly-hoc-327.html"
+      },
+      {
+        "ten_nganh": "Tâm lý học giáo dục",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/tam-ly-hoc-giao-duc-328.html"
+      }
+    ]
+  },
+  {
+    "khoi_nganh": "Thể dục - Thể thao\n3 ngành",
+    "nganh": [
+      {
+        "ten_nganh": "Giáo dục Thể chất",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/giao-duc-the-chat-90.html"
+      },
+      {
+        "ten_nganh": "Huấn luyện thể thao",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/huan-luyen-the-thao-329.html"
+      },
+      {
+        "ten_nganh": "Quản lý thể dục thể thao",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-ly-the-duc-the-thao-330.html"
+      }
+    ]
+  },
+  {
+    "khoi_nganh": "Thời trang - May mặc\n5 ngành",
+    "nganh": [
+      {
+        "ten_nganh": "Công nghệ Dệt May",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-det-may-331.html"
+      },
+      {
+        "ten_nganh": "Công nghệ may",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-may-332.html"
+      },
+      {
+        "ten_nganh": "Công nghệ sợi dệt",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-soi-det-333.html"
+      },
+      {
+        "ten_nganh": "Kinh doanh thời trang và Dệt may",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/kinh-doanh-thoi-trang-va-det-may-334.html"
+      },
+      {
+        "ten_nganh": "Thiết kế thời trang",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/thiet-ke-thoi-trang-335.html"
+      }
+    ]
+  },
+  {
+    "khoi_nganh": "Thủy sản - Lâm Nghiệp - Nông nghiệp\n20 ngành",
+    "nganh": [
+      {
+        "ten_nganh": "Quản lý tài nguyên rừng",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-ly-tai-nguyen-rung-317.html"
+      },
+      {
+        "ten_nganh": "Công nghệ chế biến thủy sản",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-che-bien-thuy-san-336.html"
+      },
+      {
+        "ten_nganh": "Chăn nuôi thủy sản",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/chan-nuoi-thuy-san-337.html"
+      },
+      {
+        "ten_nganh": "Lâm nghiệp",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/lam-nghiep-338.html"
+      },
+      {
+        "ten_nganh": "Lâm học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/lam-hoc-339.html"
+      },
+      {
+        "ten_nganh": "Nông nghiệp",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/nong-nghiep-340.html"
+      },
+      {
+        "ten_nganh": "Nông học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/nong-hoc-341.html"
+      },
+      {
+        "ten_nganh": "Bảo vệ thực vật",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/bao-ve-thuc-vat-342.html"
+      },
+      {
+        "ten_nganh": "Khoa học cây trồng",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/khoa-hoc-cay-trong-343.html"
+      },
+      {
+        "ten_nganh": "Kinh doanh nông nghiệp",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/kinh-doanh-nong-nghiep-344.html"
+      },
+      {
+        "ten_nganh": "Nuôi trồng thủy sản",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/nuoi-trong-thuy-san-345.html"
+      },
+      {
+        "ten_nganh": "Phát triển nông thôn",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/phat-trien-nong-thon-346.html"
+      },
+      {
+        "ten_nganh": "Quản lý thủy sản",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-ly-thuy-san-347.html"
+      },
+      {
+        "ten_nganh": "Công nghệ chế biến lâm sản",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-che-bien-lam-san-348.html"
+      },
+      {
+        "ten_nganh": "Công nghệ sau thu hoạch",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-sau-thu-hoach-349.html"
+      },
+      {
+        "ten_nganh": "Bệnh học thủy sản",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/benh-hoc-thuy-san-350.html"
+      },
+      {
+        "ten_nganh": "Khoa học đất",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/khoa-hoc-dat-351.html"
+      },
+      {
+        "ten_nganh": "Khoa học thủy sản",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/khoa-hoc-thuy-san-352.html"
+      },
+      {
+        "ten_nganh": "Khuyến nông",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/khuyen-nong-353.html"
+      },
+      {
+        "ten_nganh": "Kỹ nghệ gỗ và nội thất",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-nghe-go-va-noi-that-354.html"
+      }
+    ]
+  },
+  {
+    "khoi_nganh": "Toán học và thống kê\n7 ngành",
+    "nganh": [
+      {
+        "ten_nganh": "Toán học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/toan-hoc-355.html"
+      },
+      {
+        "ten_nganh": "Toán Kinh tế",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/toan-kinh-te-356.html"
+      },
+      {
+        "ten_nganh": "Toán ứng dụng",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/toan-ung-dung-357.html"
+      },
+      {
+        "ten_nganh": "Thống kê kinh doanh",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/thong-ke-kinh-doanh-358.html"
+      },
+      {
+        "ten_nganh": "Toán tin",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/toan-tin-359.html"
+      },
+      {
+        "ten_nganh": "Thống kê",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/thong-ke-360.html"
+      },
+      {
+        "ten_nganh": "Toán tài chính",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/toan-tai-chinh-361.html"
+      }
+    ]
+  },
+  {
+    "khoi_nganh": "Nhân sự - Hành chính\n5 ngành",
+    "nganh": [
+      {
+        "ten_nganh": "Quản lý công",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-ly-cong-362.html"
+      },
+      {
+        "ten_nganh": "Quản trị nhân lực",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-tri-nhan-luc-363.html"
+      },
+      {
+        "ten_nganh": "Quản trị văn phòng",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-tri-van-phong-364.html"
+      },
+      {
+        "ten_nganh": "Hệ thống hoạch định nguồn lực doanh nghiệp",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/he-thong-hoach-dinh-nguon-luc-doanh-nghiep-365.html"
+      },
+      {
+        "ten_nganh": "Quan hệ lao động",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-he-lao-dong-366.html"
+      }
+    ]
+  },
+  {
+    "khoi_nganh": "Văn hóa - Chính trị - Khoa học Xã hội\n30 ngành",
+    "nganh": [
+      {
+        "ten_nganh": "Quốc tế học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quoc-te-hoc-202.html"
+      },
+      {
+        "ten_nganh": "Văn hóa học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/van-hoa-hoc-367.html"
+      },
+      {
+        "ten_nganh": "Quản lý văn hóa",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-ly-van-hoa-368.html"
+      },
+      {
+        "ten_nganh": "Chính trị học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/chinh-tri-hoc-369.html"
+      },
+      {
+        "ten_nganh": "Văn học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/van-hoc-370.html"
+      },
+      {
+        "ten_nganh": "Việt Nam Học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/viet-nam-hoc-371.html"
+      },
+      {
+        "ten_nganh": "Xã hội học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/xa-hoi-hoc-372.html"
+      },
+      {
+        "ten_nganh": "Xây dựng Đảng & CQNN",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/xay-dung-dang-cqnn-373.html"
+      },
+      {
+        "ten_nganh": "Đông phương học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/dong-phuong-hoc-374.html"
+      },
+      {
+        "ten_nganh": "Công tác xã hội, thanh thiếu niên",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-tac-xa-hoi-thanh-thieu-nien-375.html"
+      },
+      {
+        "ten_nganh": "Đông Nam Á học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/dong-nam-a-hoc-376.html"
+      },
+      {
+        "ten_nganh": "Lịch sử",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/lich-su-377.html"
+      },
+      {
+        "ten_nganh": "Ngôn ngữ học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ngon-ngu-hoc-378.html"
+      },
+      {
+        "ten_nganh": "Trung Quốc học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/trung-quoc-hoc-379.html"
+      },
+      {
+        "ten_nganh": "Hàn Quốc học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/han-quoc-hoc-380.html"
+      },
+      {
+        "ten_nganh": "Nhật Bản học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/nhat-ban-hoc-381.html"
+      },
+      {
+        "ten_nganh": "Quản lý công, nhà nước",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-ly-cong-nha-nuoc-382.html"
+      },
+      {
+        "ten_nganh": "Thông tin - Thư viện",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/thong-tin-thu-vien-384.html"
+      },
+      {
+        "ten_nganh": "Triết học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/triet-hoc-385.html"
+      },
+      {
+        "ten_nganh": "Kinh tế chính trị",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/kinh-te-chinh-tri-388.html"
+      },
+      {
+        "ten_nganh": "Lưu trữ học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/luu-tru-hoc-389.html"
+      },
+      {
+        "ten_nganh": "Tiếng Việt & Văn hóa Việt Nam",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/tieng-viet-van-hoa-viet-nam-390.html"
+      },
+      {
+        "ten_nganh": "Hán - Nôm",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/han-nom-391.html"
+      },
+      {
+        "ten_nganh": "Nhân học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/nhan-hoc-392.html"
+      },
+      {
+        "ten_nganh": "Bảo tàng học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/bao-tang-hoc-393.html"
+      },
+      {
+        "ten_nganh": "Tôn giáo học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ton-giao-hoc-394.html"
+      },
+      {
+        "ten_nganh": "Giới và phát triển",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/gioi-va-phat-trien-395.html"
+      },
+      {
+        "ten_nganh": "Nghiên cứu phát triển",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/nghien-cuu-phat-trien-396.html"
+      },
+      {
+        "ten_nganh": "Hoa Kỳ học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/hoa-ky-hoc-397.html"
+      },
+      {
+        "ten_nganh": "Quản lý phân tích dữ liệu khoa học trái đất",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/quan-ly-phan-tich-du-lieu-khoa-hoc-trai-dat-398.html"
+      }
+    ]
+  },
+  {
+    "khoi_nganh": "Khoa học tư nhiên khác\n2 ngành",
+    "nganh": [
+      {
+        "ten_nganh": "Địa lý học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/dia-ly-hoc-386.html"
+      },
+      {
+        "ten_nganh": "Vật lý học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/vat-ly-hoc-387.html"
+      }
+    ]
+  },
+  {
+    "khoi_nganh": "Công nghiệp bán dẫn\n38 ngành",
+    "nganh": [
+      {
+        "ten_nganh": "Công nghệ thông tin",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-thong-tin-27.html"
+      },
+      {
+        "ten_nganh": "An toàn thông tin",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/an-toan-thong-tin-28.html"
+      },
+      {
+        "ten_nganh": "Khoa học Máy tính",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/khoa-hoc-may-tinh-31.html"
+      },
+      {
+        "ten_nganh": "Trí tuệ nhân tạo",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/tri-tue-nhan-tao-32.html"
+      },
+      {
+        "ten_nganh": "Công nghệ kỹ thuật điện tử - viễn thông",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-ky-thuat-dien-tu-vien-thong-33.html"
+      },
+      {
+        "ten_nganh": "Công nghệ kỹ thuật máy tính",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-ky-thuat-may-tinh-34.html"
+      },
+      {
+        "ten_nganh": "Hệ thống thông tin",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/he-thong-thong-tin-38.html"
+      },
+      {
+        "ten_nganh": "Khoa học dữ liệu và Trí tuệ nhân tạo",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/khoa-hoc-du-lieu-va-tri-tue-nhan-tao-39.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật điện tử - viễn thông",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-dien-tu-vien-thong-41.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật Máy tính",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-may-tinh-42.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật phần mềm",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-phan-mem-43.html"
+      },
+      {
+        "ten_nganh": "Mạng máy tính & truyền thông dữ liệu",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/mang-may-tinh-truyen-thong-du-lieu-44.html"
+      },
+      {
+        "ten_nganh": "Robot và trí tuệ nhân tạo",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/robot-va-tri-tue-nhan-tao-46.html"
+      },
+      {
+        "ten_nganh": "An ninh mạng và phòng chống tội phạm công nghệ cao",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/an-ninh-mang-va-phong-chong-toi-pham-cong-nghe-cao-118.html"
+      },
+      {
+        "ten_nganh": "Công nghệ kỹ thuật cơ khí",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-ky-thuat-co-khi-208.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật cơ điện tử",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-co-dien-tu-212.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật cơ khí",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-co-khi-213.html"
+      },
+      {
+        "ten_nganh": "Vật lý Kỹ thuật",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/vat-ly-ky-thuat-216.html"
+      },
+      {
+        "ten_nganh": "Cơ Kỹ thuật",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/co-ky-thuat-217.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật công nghiệp",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-cong-nghiep-218.html"
+      },
+      {
+        "ten_nganh": "Công nghệ kỹ thuật cơ điện tử",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-ky-thuat-co-dien-tu-220.html"
+      },
+      {
+        "ten_nganh": "Công nghệ kỹ thuật điện, điện tử",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-ky-thuat-dien-dien-tu-221.html"
+      },
+      {
+        "ten_nganh": "Công nghệ kỹ thuật điều khiển và tự động hóa",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-ky-thuat-dieu-khien-va-tu-dong-hoa-222.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật điện",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-dien-223.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật Nhiệt",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-nhiet-226.html"
+      },
+      {
+        "ten_nganh": "Công nghệ kỹ thuật nhiệt",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-ky-thuat-nhiet-227.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật Robot",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-robot-228.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật Điện - Điện tử",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-dien-dien-tu-234.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật Vật liệu",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-vat-lieu-258.html"
+      },
+      {
+        "ten_nganh": "Công nghệ vật liệu",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-vat-lieu-259.html"
+      },
+      {
+        "ten_nganh": "Khoa học Vật liệu",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/khoa-hoc-vat-lieu-260.html"
+      },
+      {
+        "ten_nganh": "Công nghệ kỹ thuật hoá học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/cong-nghe-ky-thuat-hoa-hoc-274.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật Hóa học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-hoa-hoc-278.html"
+      },
+      {
+        "ten_nganh": "Vật lý học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/vat-ly-hoc-387.html"
+      },
+      {
+        "ten_nganh": "Cơ học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/co-hoc-528.html"
+      },
+      {
+        "ten_nganh": "Hóa học",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/hoa-hoc-529.html"
+      },
+      {
+        "ten_nganh": "Khoa học tính toán",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/khoa-hoc-tinh-toan-530.html"
+      },
+      {
+        "ten_nganh": "Kỹ thuật vật liệu kim loại",
+        "url": "https://diemthi.tuyensinh247.com/nganh-dao-tao/ky-thuat-vat-lieu-kim-loai-531.html"
+      }
+    ]
+  }
+]
