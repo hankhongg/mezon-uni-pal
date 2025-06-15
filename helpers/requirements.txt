@@ -1,2 +1,5 @@
 selenium
-bs4
+beautifulsoup4
+requests
+
+# pip install -r requirements.txt

@@ -4,8 +4,8 @@ const { MezonClient } = require("mezon-sdk");
 
 dotenv.config();
 
-const majorsData = JSON.parse(fs.readFileSync("nganh_dai_hoc_2025.json", "utf-8"));
-const availableFunctions = JSON.parse(fs.readFileSync("available_functions.json", "utf-8"));
+const majorsData = JSON.parse(fs.readFileSync("json/nganh_dai_hoc_2025.json", "utf-8"));
+const availableFunctions = JSON.parse(fs.readFileSync("json/available_functions.json", "utf-8"));
 
 async function main() {
   const client = new MezonClient(process.env.APPLICATION_TOKEN);
@@ -72,7 +72,7 @@ async function main() {
       const index = parseInt(content) - 1;
       if (index >= 0 && index < session.selected.length) {
         const selected = session.selected[index];
-        console.log("selected:", selected);
+        //console.log("selected:", selected);
         const nganhList = selected.nganh
           .map((nganh, i) => `${i + 1}. ${nganh.ten_nganh} - [Chi tiết](${nganh.url})`)
           .join("\n");
@@ -124,7 +124,7 @@ async function main() {
       const index = parseInt(content) - 1;
       if (index >= 0 && index < session.selected.length) {
         const selectedSchool = session.selected[index];
-        const ptxt = selectedSchool.ptxt.map((item) => `${item.code} (${item.desc})`).join("\n");
+        const ptxt = selectedSchool.ptxt.map((item, index) => `${index + 1}. ${item.code} (${item.desc})`).join("\n");
 
         const details = `🏫 Trường: ${selectedSchool.ten_truong}\n Các Phương thức Xét tuyển hiện có:\n${ptxt}`;
 

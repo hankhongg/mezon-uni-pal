@@ -8,6 +8,7 @@ import requests
 import time
 import json
 import re
+import os
 
 service = EdgeService(executable_path="../edgedriver_win64/msedgedriver.exe")
 driver = webdriver.Edge(service=service)
@@ -108,9 +109,19 @@ try:
     print(f"\n📦 Tổng cộng tìm được {total_nganh} ngành trong {len(all_khoi_nganh)} khối.")
 
 finally:
-    with open("nganh_dai_hoc_2025.json", "w", encoding="utf-8") as f:
+    # Get the parent directory (i.e., the directory that contains both 'helpers' and 'json')
+    parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
+
+    # Build the full path to the desired output file in the 'json' folder
+    output_path = os.path.join(parent_dir, "json", "nganh_dai_hoc_2025.json")
+
+    # Optional: ensure the json folder exists (in case it was deleted)
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+
+    # Write the JSON file
+    with open(output_path, "w", encoding="utf-8") as f:
         json.dump(all_khoi_nganh, f, ensure_ascii=False, indent=2)
 
-    print("💾 Đã lưu danh sách ngành vào 'nganh_dai_hoc_2025.json'")
+    print(f"💾 Đã lưu file vào: {output_path}")
     print("🛑 Đóng trình duyệt...")
     driver.quit()
