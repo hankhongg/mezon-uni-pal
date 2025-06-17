@@ -159,7 +159,7 @@ async function main() {
         
 
         await message.reply({
-          t: `🏫 Ngành \"${selected}\" có các trường sau:\n${schoolList}\n\n📩 Gửi số (1, 2, 3...) để xem các phương thức xét tuyển / điểm chuẩn / ... trong các ngành của trường này.\n\n*Lưu ý* Bấm \"uni!\" để dừng.\n\n❗Sau khi bấm vui lòng đợi trong giây lát!`
+          t: `🏫 Ngành \"${selected}\" có các trường sau:\n\n${schoolList}\n\n📩 Gửi số (1, 2, 3...) để xem các phương thức xét tuyển / điểm chuẩn / ... trong các ngành của trường này.\n\n*Lưu ý* Bấm \"uni!\" để dừng.\n\n❗Sau khi bấm vui lòng đợi trong giây lát!`
         });
 
         userSessions.set(userId, session);
