@@ -382,6 +382,9 @@ async function main() {
                 return;
             }
             try {
+                await message.reply({
+                    t: "📍 Đang tìm gợi ý quán ăn...",
+                });
                 const result = await runFoodSuggester(location);
                 await message.reply({ t: result });
             } catch (error) {
