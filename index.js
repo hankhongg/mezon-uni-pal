@@ -3,6 +3,8 @@ import fs from "fs";
 import { MezonClient } from "mezon-sdk";
 import callGeminiAPI from "./helpers/apis/gemini_api.js";
 import runPythonScraper from "./helpers/school-crawler/run_crawler.js";
+import Crawler from "./helpers/news_crawler/crawler.ts";
+import { beautifier, categoryBeautifier } from "./helpers/news_crawler/beautifier.ts";
 import runFoodSuggester from "./helpers/food-suggester/run_food_suggester.js";
 
 dotenv.config();
@@ -18,7 +20,8 @@ async function main() {
     const client = new MezonClient(process.env.APPLICATION_TOKEN);
     await client.login();
 
-    const userSessions = new Map(); // userId => session object
+  const userSessions = new Map(); // userId => session object
+  const newsCrawler = new Crawler(); // Initialize the news crawler
 
     // client.on(MezonEventSocket.MESSAGE_CREATE, (message) => {
     //   console.log(
@@ -42,18 +45,25 @@ async function main() {
         const channel = await client.channels.fetch(event.channel_id);
         const message = await channel.messages.fetch(event.message_id);
 
-        const session = userSessions.get(userId) || {
-            seenHelp: false,
-            uniHelp: false,
-            uniMajor: false,
-            uniSubMajor: false,
-            uniSubMajorLink: null,
-            uniSchool: false,
-            uniConsult: false,
-            uniConsultSchool: false,
-            uniConsultSchoolMark: false,
-            selected: null,
-        };
+    const session = userSessions.get(userId) || {
+      seenHelp: false,
+      uniHelp: false,
+      uniMajor: false,
+      uniSubMajor: false,
+      uniSubMajorLink: null,
+      uniSchool: false,
+      uniConsult: false,
+      uniConsultSchool: false,
+      uniConsultSchoolMark: false,
+      selected: null,
+      newsMode: false,
+      newsData: null,
+      categoryMode: false,
+      categoryData: null,
+      categoryNewsMode: false,
+      categoryNewsData: null
+    };
+
 
         if (content === "uni!help") {
             session.seenHelp = true;
@@ -118,6 +128,57 @@ async function main() {
                         t: `📍 Vui lòng nhập địa điểm để gợi ý các quán ăn phù hợp, ví dụ:\n\nuni!food Đại học Bách Khoa`,
                     });
                     return;
+        }
+        if (selected.tinh_nang === "Xem tin tức trang nhất") {
+          session.newsMode = true;
+          session.selected = null; // reset selected
+
+          await message.reply({
+            t: `📰 Đang tải tin tức mới nhất từ VnExpress...\n\n*Vui lòng đợi trong giây lát*`
+          });
+
+          try {
+            const newsData = await newsCrawler.getTrangNhat();
+            session.newsData = newsData;
+            const formattedNews = beautifier(newsData);
+            
+            await message.reply({
+              t: formattedNews
+            });
+          } catch (error) {
+            await message.reply({
+              t: `❌ Không thể tải tin tức. Vui lòng thử lại sau.\nLỗi: ${error.message}`
+            });
+          }
+
+          session.newsMode = true;
+          userSessions.set(userId, session);
+          return;
+        }
+        if (selected.tinh_nang === "Duyệt tin tức theo chuyên mục") {
+          session.categoryMode = true;
+          session.selected = null; // reset selected
+
+          await message.reply({
+            t: `📂 Đang tải danh sách chuyên mục...\n\n*Vui lòng đợi trong giây lát*`
+          });
+
+          try {
+            const categoryData = await newsCrawler.getCategories();
+            session.categoryData = categoryData;
+            const formattedCategories = categoryBeautifier(categoryData);
+            
+            await message.reply({
+              t: formattedCategories
+            });
+          } catch (error) {
+            await message.reply({
+              t: `❌ Không thể tải danh sách chuyên mục. Vui lòng thử lại sau.\nLỗi: ${error.message}`
+            });
+          }
+
+          userSessions.set(userId, session);
+          return;
                 }
             }
         }
@@ -346,25 +407,189 @@ async function main() {
             }
         }
 
-        // quit
-        if (content === "uni!") {
-            if (!session.uniHelp && !session.uniMajor && !session.uniSubMajor) {
-                await message.reply({
-                    t: "⚠️ Bạn chưa bắt đầu xem các ngành. Gửi lại uni!help để xem các tính năng hiện có.",
-                });
-                return;
+    // NEWS FUNCTIONALITY - Placed at the end to avoid interference with university logic
+    
+    // category -> category news (only when in category mode)
+    if (session.categoryMode && session.categoryData) {
+      // Handle subcategory selection (e.g., "1a", "2b", "3c")
+      if (/^\d+[a-z]$/.test(content)) {
+        const numberPart = parseInt(content.slice(0, -1)) - 1;
+        const letterPart = content.slice(-1).charCodeAt(0) - 97; // Convert 'a' to 0, 'b' to 1, etc.
+        
+        if (numberPart >= 0 && numberPart < session.categoryData.length) {
+          const category = session.categoryData[numberPart];
+          if (category.subCategories && letterPart >= 0 && letterPart < category.subCategories.length) {
+            const subCategory = category.subCategories[letterPart];
+            
+            await message.reply({
+              t: `📰 Đang tải tin tức từ "${subCategory.name}"...\n\n*Vui lòng đợi trong giây lát*`
+            });
+
+            try {
+              const categoryNews = await newsCrawler.getCategoryNews(subCategory.url);
+              session.categoryNewsData = categoryNews;
+              session.categoryMode = false;
+              session.categoryNewsMode = true;
+              
+              const formattedNews = beautifier(categoryNews);
+              await message.reply({
+                t: `📂 **${subCategory.name}**\n\n${formattedNews}`
+              });
+            } catch (error) {
+              await message.reply({
+                t: `❌ Không thể tải tin tức từ chuyên mục này. Vui lòng thử lại sau.\nLỗi: ${error.message}`
+              });
             }
 
-            session.uniHelp = false;
-            session.uniMajor = false;
-            session.uniSubMajor = false;
-            session.selected = null;
-            session.uniSchool = false;
-            session.uniConsult = false;
-            session.seenHelp = false;
-            session.uniConsultSchool = false;
-            session.uniConsultSchoolMark = false;
-            session.uniSubMajorLink = null;
+            userSessions.set(userId, session);
+            return;
+          }
+        }
+        
+        await message.reply({ 
+          t: "❌ Mã chuyên mục không hợp lệ. Vui lòng chọn từ danh sách." 
+        });
+        return;
+      }
+      
+      // Handle main category selection (e.g., "1", "2", "3")
+      if (/^\d+$/.test(content)) {
+        const index = parseInt(content) - 1;
+        if (index >= 0 && index < session.categoryData.length) {
+          const category = session.categoryData[index];
+          
+          await message.reply({
+            t: `📰 Đang tải tin tức từ "${category.name}"...\n\n*Vui lòng đợi trong giây lát*`
+          });
+
+          try {
+            const categoryNews = await newsCrawler.getCategoryNews(category.url);
+            session.categoryNewsData = categoryNews;
+            session.categoryMode = false;
+            session.categoryNewsMode = true;
+            
+            const formattedNews = beautifier(categoryNews);
+            await message.reply({
+              t: `📂 **${category.name}**\n\n${formattedNews}`
+            });
+          } catch (error) {
+            await message.reply({
+              t: `❌ Không thể tải tin tức từ chuyên mục này. Vui lòng thử lại sau.\nLỗi: ${error.message}`
+            });
+          }
+
+          userSessions.set(userId, session);
+          return;
+        } else {
+          await message.reply({ 
+            t: "❌ Số không hợp lệ. Vui lòng chọn từ danh sách chuyên mục." 
+          });
+          return;
+        }
+      }
+    }
+
+    // news -> article content (only when in news mode)
+    if (/^\d+$/.test(content) && session.newsMode && session.newsData) {
+      const index = parseInt(content) - 1;
+      if (index >= 0 && index < session.newsData.length) {
+        const selectedNews = session.newsData[index];
+        
+        await message.reply({
+          t: `📰 Đang tải nội dung tin tức...\n\n*Vui lòng đợi trong giây lát*`
+        });
+
+        try {
+          const newsContent = await newsCrawler.getNewsContent(selectedNews.url);
+          
+          if (newsContent.title && newsContent.content) {
+            const formattedContent = `📰 **${newsContent.title}**\n\n${newsContent.content}\n\n🔗 Nguồn: ${selectedNews.url}\n📩 Bạn có thể gửi "uni!" để quay lại từ đầu`;
+            await message.reply({
+              t: formattedContent
+            });
+          } else {
+            await message.reply({
+              t: `❌ Không thể tải nội dung tin tức này. Vui lòng thử tin khác.\n\n🔗 Bạn có thể truy cập trực tiếp: ${selectedNews.url}`
+            });
+          }
+        } catch (error) {
+          await message.reply({
+            t: `❌ Không thể tải nội dung tin tức. Vui lòng thử lại sau.\n\n🔗 Bạn có thể truy cập trực tiếp: ${selectedNews.url}\n\nLỗi: ${error.message}`
+          });
+        }
+
+        userSessions.set(userId, session);
+        return;
+      } else {
+        await message.reply({ 
+          t: "❌ Số không hợp lệ. Vui lòng chọn số từ danh sách tin tức." 
+        });
+        return;
+      }
+    }
+
+    // category news -> article content (only when in category news mode)
+    if (/^\d+$/.test(content) && session.categoryNewsMode && session.categoryNewsData) {
+      const index = parseInt(content) - 1;
+      if (index >= 0 && index < session.categoryNewsData.length) {
+        const selectedNews = session.categoryNewsData[index];
+        
+        await message.reply({
+          t: `📰 Đang tải nội dung tin tức...\n\n*Vui lòng đợi trong giây lát*`
+        });
+
+        try {
+          const newsContent = await newsCrawler.getNewsContent(selectedNews.url);
+          
+          if (newsContent.title && newsContent.content) {
+            const formattedContent = `📰 **${newsContent.title}**\n\n${newsContent.content}\n\n🔗 Nguồn: ${selectedNews.url}\n📩 Bạn có thể gửi "uni!" để quay lại từ đầu`;
+            await message.reply({
+              t: formattedContent
+            });
+          } else {
+            await message.reply({
+              t: `❌ Không thể tải nội dung tin tức này. Vui lòng thử tin khác.\n\n🔗 Bạn có thể truy cập trực tiếp: ${selectedNews.url}`
+            });
+          }
+        } catch (error) {
+          await message.reply({
+            t: `❌ Không thể tải nội dung tin tức. Vui lòng thử lại sau.\n\n🔗 Bạn có thể truy cập trực tiếp: ${selectedNews.url}\n\nLỗi: ${error.message}`
+          });
+        }
+
+        userSessions.set(userId, session);
+        return;
+      } else {
+        await message.reply({ 
+          t: "❌ Số không hợp lệ. Vui lòng chọn số từ danh sách tin tức." 
+        });
+        return;
+      }
+    }
+
+    // quit
+    if (content === "uni!") {
+      if (!session.uniHelp && !session.uniMajor && !session.uniSubMajor && !session.newsMode && !session.categoryMode && !session.categoryNewsMode) {
+        await message.reply({ t: "⚠️ Bạn chưa bắt đầu xem các ngành hoặc tin tức. Gửi lại uni!help để xem các tính năng hiện có." });
+        return;
+      }
+
+      session.uniHelp = false;
+      session.uniMajor = false;
+      session.uniSubMajor = false;
+      session.selected = null;
+      session.uniSchool = false;
+      session.uniConsult = false;
+      session.seenHelp = false;
+      session.uniConsultSchool = false;
+      session.uniConsultSchoolMark = false;
+      session.uniSubMajorLink = null;
+      session.newsMode = false;
+      session.newsData = null;
+      session.categoryMode = false;
+      session.categoryData = null;
+      session.categoryNewsMode = false;
+      session.categoryNewsData = null;
 
             await message.reply({
                 t: "👋 Đã dừng mọi hoạt động. Gửi lại uni!help để bắt đầu lại.",

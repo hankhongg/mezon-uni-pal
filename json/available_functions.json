@@ -10,5 +10,13 @@
     {
         "tinh_nang": "Gợi ý món ăn quanh bạn",
         "mo_ta": "Gửi vị trí của bạn để nhận gợi ý món ăn phù hợp 🍜"
+    },
+    {
+        "tinh_nang": "Xem tin tức trang nhất",
+        "mo_ta": "Cập nhật những tin tức mới nhất từ VnExpress 📰"
+    },
+    {
+        "tinh_nang": "Duyệt tin tức theo chuyên mục",
+        "mo_ta": "Xem tin tức theo các chuyên mục khác nhau như Thế giới, Kinh doanh, Thể thao... 📂"
     }
 ]
