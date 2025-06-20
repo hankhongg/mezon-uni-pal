@@ -3,3 +3,5 @@ beautifulsoup4
 requests
 python-dotenv
 google-generativeai
+
+# pip install -r requirements.txt
