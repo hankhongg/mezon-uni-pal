@@ -3,9 +3,11 @@ services:
     name: mezon-uni-pal
     env: node
     buildCommand: |
-      npm install --include=dev
-      npx puppeteer browsers install chrome
-    startCommand: npm start
+      npm install
+    startCommand: |
+      apt-get update && \
+      apt-get install -y chromium && \
+      node index.js
     envVars:
       - key: NODE_ENV
         value: production
