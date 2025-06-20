@@ -76,7 +76,7 @@ async function main() {
                 )
                 .join("\n");
             await message.reply({
-                t: `💁🏻‍♀️ Hello, welcome to UniPal!\n\n${help}\n\n📩 Gửi số (1, 2, 3...) để trải nghiệm các tính năng tương ứng.`,
+                t: `💁🏻‍♀️ Hello, welcome to UniPal!\n\n${help}\n\n📩 Gửi số (1, 2, 3...) để trải nghiệm các tính năng tương ứng.\n🌸Lưu ý🌸 Gửi "uni!" để dừng lại.`,
             });
 
             userSessions.set(userId, session);

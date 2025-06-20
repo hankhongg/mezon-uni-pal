@@ -5,7 +5,11 @@ class Crawler {
   constructor() {}
 
   async getTrangNhat() {
-    const browser = await puppeteer.launch({ headless: true });
+    const browser = await puppeteer.launch({
+      headless: "new",
+      executablePath: "/usr/bin/chromium", 
+      args: ["--no-sandbox", "--disable-setuid-sandbox"],
+    });
     const page = await browser.newPage();
 
     try {
@@ -34,7 +38,11 @@ class Crawler {
   }
 
   async getNewsContent(url) {
-    const browser = await puppeteer.launch({ headless: true });
+    const browser = await puppeteer.launch({
+      headless: "new",
+      executablePath: "/usr/bin/chromium", 
+      args: ["--no-sandbox", "--disable-setuid-sandbox"],
+    });
     const page = await browser.newPage();
 
     try {
@@ -73,7 +81,11 @@ class Crawler {
   async getCategories() {
     try {
       console.log("Launching browser...");
-      const browser = await puppeteer.launch({ headless: true });
+      const browser = await puppeteer.launch({
+      headless: "new",
+      executablePath: "/usr/bin/chromium", 
+      args: ["--no-sandbox", "--disable-setuid-sandbox"],
+    });
       const page = await browser.newPage();
 
       console.log("Navigating to VnExpress homepage...");
@@ -143,7 +155,11 @@ class Crawler {
 
   async getCategoryNews(categoryUrl) {
     console.log(`Starting getCategoryNews for URL: ${categoryUrl}`);
-    const browser = await puppeteer.launch({ headless: true });
+    const browser = await puppeteer.launch({
+      headless: "new",
+      executablePath: "/usr/bin/chromium", 
+      args: ["--no-sandbox", "--disable-setuid-sandbox"],
+    });
     const page = await browser.newPage();
 
     try {
