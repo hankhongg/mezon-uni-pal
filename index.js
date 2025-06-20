@@ -3,8 +3,8 @@ import fs from "fs";
 import { MezonClient } from "mezon-sdk";
 import callGeminiAPI from "./helpers/apis/gemini_api.js";
 import runPythonScraper from "./helpers/school-crawler/run_crawler.js";
-import Crawler from "./helpers/news_crawler/crawler.ts";
-import { beautifier, categoryBeautifier } from "./helpers/news_crawler/beautifier.ts";
+import Crawler from "./helpers/news_crawler/crawler.js";
+import { beautifier, categoryBeautifier } from "./helpers/news_crawler/beautifier.js";
 import runFoodSuggester from "./helpers/food-suggester/run_food_suggester.js";
 
 dotenv.config();

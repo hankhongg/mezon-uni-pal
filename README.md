@@ -20,3 +20,5 @@ Copy `.env.example` to `.env` and replace it with your application token.
 # development
 $ yarn start
 ```
+
+npm install -D ts-node typescript

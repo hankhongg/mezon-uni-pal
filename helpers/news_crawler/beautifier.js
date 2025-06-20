@@ -2,8 +2,8 @@ function beautifier(newsArray) {
     if (!newsArray || !Array.isArray(newsArray) || newsArray.length === 0) {
         return "No news available";
     }
-    
-    var report = "=================== Today news ===================\n";
+
+    let report = "=================== Today news ===================\n";
     newsArray.forEach((newsItem, index) => {
         if (newsItem.title && newsItem.url) {
             report += `${index + 1}. ${newsItem.title}\n   🔗 ${newsItem.url}\n\n`;
@@ -19,8 +19,8 @@ function categoryBeautifier(categories) {
     if (!categories || !Array.isArray(categories) || categories.length === 0) {
         return "No categories available";
     }
-    
-    var report = "================== Chuyên mục tin tức ==================\n";
+
+    let report = "================== Chuyên mục tin tức ==================\n";
     categories.forEach((category, index) => {
         if (category.name && category.url) {
             report += `${index + 1}. ${category.name}\n`;
