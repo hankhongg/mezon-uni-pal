@@ -1,18 +1,14 @@
 import request from "request";
-import puppeteer from "puppeteer-core";
-
+import puppeteer from "puppeteer";
 
 class Crawler {
   constructor() {}
 
   async getTrangNhat() {
     const browser = await puppeteer.launch({
-      headless: true,
-      executablePath: "/usr/bin/chromium",
-      args: ['--no-sandbox', '--disable-setuid-sandbox'],
+      headless: "new",
+      args: ['--no-sandbox', '--disable-setuid-sandbox']
     });
-
-
     const page = await browser.newPage();
 
     try {
@@ -42,9 +38,8 @@ class Crawler {
 
   async getNewsContent(url) {
     const browser = await puppeteer.launch({
-      headless: true,
-      executablePath: "/usr/bin/chromium",
-      args: ['--no-sandbox', '--disable-setuid-sandbox'],
+      headless: "new",
+      args: ['--no-sandbox', '--disable-setuid-sandbox']
     });
     const page = await browser.newPage();
 
@@ -85,9 +80,8 @@ class Crawler {
     try {
       console.log("Launching browser...");
       const browser = await puppeteer.launch({
-        headless: true,
-        executablePath: "/usr/bin/chromium",
-        args: ['--no-sandbox', '--disable-setuid-sandbox'],
+        headless: "new",
+        args: ['--no-sandbox', '--disable-setuid-sandbox']
       });
       const page = await browser.newPage();
 
@@ -159,9 +153,8 @@ class Crawler {
   async getCategoryNews(categoryUrl) {
     console.log(`Starting getCategoryNews for URL: ${categoryUrl}`);
     const browser = await puppeteer.launch({
-      headless: true,
-      executablePath: "/usr/bin/chromium",
-      args: ['--no-sandbox', '--disable-setuid-sandbox'],
+      headless: "new",
+      args: ['--no-sandbox', '--disable-setuid-sandbox']
     });
     const page = await browser.newPage();
 
