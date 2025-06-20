@@ -1,24 +1,54 @@
-## Create your Mezon application
+# 🧠 UniPal – Trợ Lý ảo dành cho sinh viên
 
-Visit the [Developers Portal](https://dev-developers.nccsoft.vn/) to create your application.
+**UniPal** là một chatbot thông minh được phát triển nhằm hỗ trợ sinh viên trong việc tra cứu thông tin trường, tìm ngành học dựa theo sở thích và năng lực, quán ăn gần trường với giá tốt và đánh giá cao. Bot hoạt động trong hệ sinh thái Mezon, sử dụng công nghệ hiện đại:
 
-## Add bot to your clan
+-   🧠 **Ngôn ngữ tự nhiên (NLP)** từ [Gemini API](https://ai.google/discover/gemini/)
+-   🗘️ **Google Maps Places API** và **OpenStreetMap** cho tra cứu địa điểm
+-   🛠️ **Node.js** (TypeScript), **Python**, và **Mezon SDK** để xử lý logic và tương tác người dùng
+-   ⚡ **RapidAPI**, **dotenv**, và nhiều công cụ Dev tiện ích khác
 
-Use your install link in a browser to add your bot to your desired clan.
+---
 
-## Installation
+## 🚀 Bắt đầu với Mezon Application
+
+### 1. Tạo ứng dụng Mezon
+
+Truy cập [Mezon Developers Portal](https://dev-developers.nccsoft.vn/) để tạo ứng dụng mới.
+
+### 2. Cài đặt bot vào Clan
+
+Sau khi tạo ứng dụng, bạn sẽ nhận được liên kết cài đặt. Truy cập liên kết đó bằng trình duyệt để thêm bot vào Clan mà bạn muốn.
+
+---
+
+## 🛠️ Cài đặt môi trường phát triển (Local)
+
+### 1. Cài đặt các dependencies
 
 ```bash
-$ yarn
+$ npm install
 ```
 
-Copy `.env.example` to `.env` and replace it with your application token.
+### 2. Tạo file cấu hình môi trường
 
-## Running the app
+Sao chép file `.env.example` thành `.env`:
 
 ```bash
-# development
-$ yarn start
+$ cp .env.example .env
 ```
 
-npm install -D ts-node typescript
+Điền các biến môi trường sau trong file `.env`:
+
+```env
+APPLICATION_TOKEN=your_application_key
+RAPIDAPI_KEY=your_rapidapi_key
+GEMINI_API_KEY=your_google_gemini_key
+```
+
+### 3. Chạy ứng dụng
+
+```bash
+$ npm run start
+```
+
+Dự án thuộc sở hữu của nhóm phát triển UniPal, dành cho mục đích học tập và nghiên cứu trong hệ sinh thái Mezon.
