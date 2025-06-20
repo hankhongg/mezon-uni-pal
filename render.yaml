@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: mezon-uni-pal
+    env: node
+    buildCommand: |
+      apt-get update
+      apt-get install -y chromium
+      npm install
+    startCommand: node index.js
