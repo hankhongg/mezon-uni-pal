@@ -104,7 +104,7 @@ async function main() {
                     session.selected = majorsData;
 
                     await message.reply({
-                        t: `📚 Danh sách khối ngành:\n${major}\n\n📩 Gửi số (1, 2, 3...) để xem các ngành trong khối.\n\n*Lưu ý* Bấm \"uni!\" để dừng xem các ngành`,
+                        t: `📚 Danh sách khối ngành:\n${major}\n\n📩 Gửi số (1, 2, 3...) để xem các ngành trong khối.\n\n🌸Lưu ý🌸 Bấm \"uni!\" để dừng xem các ngành`,
                     });
 
                     userSessions.set(userId, session);
@@ -115,7 +115,7 @@ async function main() {
                     session.selected = null; // reset selected
 
                     await message.reply({
-                        t: `💬 Bạn có thể gửi nhu cầu của mình để được tư vấn các ngành học phù hợp.\n\n*Lưu ý* Bấm \"uni!\" để dừng tư vấn
+                        t: `💬 Bạn có thể gửi nhu cầu của mình để được tư vấn các ngành học phù hợp.\n\n🌸Lưu ý🌸 Bấm \"uni!\" để dừng tư vấn
             `,
                     });
 
@@ -205,7 +205,7 @@ async function main() {
                     .map((line, index) => `${index + 1}. ${line}`)
                     .join("\n");
                 await message.reply({
-                    t: `📚 Dưới đây là các ngành học phù hợp với nguyện vọng của bạn:\n\n${formattedResponse}\n\n📩 Gửi số (1, 2, 3...) để xem các trường học cho ngành này.\n\n*Lưu ý* Bấm \"uni!\" để dừng lại.`,
+                    t: `📚 Dưới đây là các ngành học phù hợp với nguyện vọng của bạn:\n\n${formattedResponse}\n\n📩 Gửi số (1, 2, 3...) để xem các trường học cho ngành này.\n\n🌸Lưu ý🌸 Bấm \"uni!\" để dừng lại.`,
                 });
                 session.selected = response; // save selected majors
                 session.uniConsultSchool = true; // set to true for next step
@@ -259,7 +259,7 @@ async function main() {
                 userSessions.set(userId, session);
 
                 await message.reply({
-                    t: `🏫 Ngành \"${selected}\" có các trường sau:\n\n${schoolList}\n\n📩 Gửi số (1, 2, 3...) để xem các phương thức xét tuyển / điểm chuẩn / ... trong các ngành của trường này.\n\n*Lưu ý* Bấm \"uni!\" để dừng.\n\n❗Sau khi bấm vui lòng đợi trong giây lát!`,
+                    t: `🏫 Ngành \"${selected}\" có các trường sau:\n\n${schoolList}\n\n📩 Gửi số (1, 2, 3...) để xem các phương thức xét tuyển / điểm chuẩn / ... trong các ngành của trường này.\n\n🌸Lưu ý🌸 Bấm \"uni!\" để dừng.\n\n❗Sau khi bấm vui lòng đợi trong giây lát!`,
                 });
 
                 userSessions.set(userId, session);
@@ -272,44 +272,77 @@ async function main() {
         }
 
         // school -> mark
+        // if (
+        //     /^\d+$/.test(content) &&
+        //     session.uniConsultSchoolMark &&
+        //     session.selected
+        // ) {
+        //     const index = parseInt(content) - 1;
+        //     if (index >= 0 && index < session.selected.length) {
+        //         const selected = session.selected[index];
+
+        //         console.log("selected school:", selected);
+        //         console.log(
+        //             "selected submajor link:",
+        //             session.uniSubMajorLink[0]
+        //         );
+
+        //         session.uniConsultSchoolMark = false; // reset consultation
+        //         //session.selected = schoolList; // save selected schools
+        //         //runPythonScraper(session.uniSubMajorLink[0], selected.ten_truong)
+        //         runPythonScraper(
+        //             session.uniSubMajorLink[0],
+        //             selected.ten_truong
+        //         ).then(async (data) => {
+        //             const reply = formatScrapedData(data);
+        //             await message.reply({ t: reply });
+        //         });
+
+        //         // await message.reply({
+        //         //   t: `🏫 Ngành \"${selected.ten_nganh}\" có các trường sau:\n${schoolList}`
+        //         // });
+
+        //         userSessions.set(userId, session);
+        //         return;
+        //     } else {
+        //         await message.reply({
+        //             t: "❌ Số không hợp lệ. Gửi lại uni!help để xem các tính năng hiện có.",
+        //         });
+        //     }
+        // }
+
         if (
-            /^\d+$/.test(content) &&
-            session.uniConsultSchoolMark &&
-            session.selected
-        ) {
-            const index = parseInt(content) - 1;
-            if (index >= 0 && index < session.selected.length) {
-                const selected = session.selected[index];
+        /^\d+$/.test(content) &&
+        session.uniConsultSchoolMark &&
+        session.selected
+      ) {
+          const index = parseInt(content) - 1;
+          if (index >= 0 && index < session.selected.length) {
+              const selected = session.selected[index];
+              const submajorLink = session.uniSubMajorLink[0]; // you can also pair index if needed
 
-                console.log("selected school:", selected);
-                console.log(
-                    "selected submajor link:",
-                    session.uniSubMajorLink[0]
-                );
+              console.log("selected school:", selected);
+              console.log("selected submajor link:", submajorLink);
 
-                session.uniConsultSchoolMark = false; // reset consultation
-                //session.selected = schoolList; // save selected schools
-                //runPythonScraper(session.uniSubMajorLink[0], selected.ten_truong)
-                runPythonScraper(
-                    session.uniSubMajorLink[0],
-                    selected.ten_truong
-                ).then(async (data) => {
-                    const reply = formatScrapedData(data);
-                    await message.reply({ t: reply });
-                });
+              session.uniConsultSchoolMark = false;
+              userSessions.set(userId, session);
 
-                // await message.reply({
-                //   t: `🏫 Ngành \"${selected.ten_nganh}\" có các trường sau:\n${schoolList}`
-                // });
+              const formattedPTXT = selected.ptxt && selected.ptxt.length
+                  ? selected.ptxt.map((pt, i) => `${i + 1}. [${pt.code}] ${pt.desc}`).join("\n")
+                  : "⚠️ Không có dữ liệu phương thức xét tuyển.";
 
-                userSessions.set(userId, session);
-                return;
-            } else {
-                await message.reply({
-                    t: "❌ Số không hợp lệ. Gửi lại uni!help để xem các tính năng hiện có.",
-                });
-            }
-        }
+              await message.reply({
+                  t: `🏫 Trường **${selected.ten_truong}** (${selected.so_nganh}) có các phương thức xét tuyển:\n\n${formattedPTXT}\n\n📥 Đang tiến hành thu thập thêm thông tin chi tiết từ ngành phụ...`,
+              });
+
+              return;
+          } else {
+              await message.reply({
+                  t: "❌ Số không hợp lệ. Gửi lại uni!help để xem các tính năng hiện có.",
+              });
+          }
+      }
+
 
         // major -> submajor
         if (/^\d+$/.test(content) && session.uniMajor && session.selected) {
@@ -355,7 +388,7 @@ async function main() {
             if (index >= 0 && index < session.selected.length) {
                 const selectedSubMajor = session.selected[index];
                 const schoolList = selectedSubMajor.truong
-                    .map((truong, i) => `${i + 1}. ${truong.ten_truong}`)
+                    .map((truong) => `- ${truong.ten_truong}`)
                     .join("\n");
 
                 session.uniSubMajor = false;
@@ -363,7 +396,7 @@ async function main() {
                 session.selected = selectedSubMajor.truong;
 
                 await message.reply({
-                    t: `🏫 Ngành \"${selectedSubMajor.ten_nganh}\" có các trường sau:\n${schoolList}`,
+                    t: `🏫 Ngành \"${selectedSubMajor.ten_nganh}\" có các trường sau:\n${schoolList}\n\nĐã kết thúc lượt, hãy gửi uni!help để bắt đầu lại💖`,
                 });
 
                 userSessions.set(userId, session);
@@ -386,12 +419,12 @@ async function main() {
                 const selectedSchool = session.selected[index];
                 const ptxt = selectedSchool.ptxt
                     .map(
-                        (item, index) =>
-                            `${index + 1}. ${item.code} (${item.desc})`
+                        (item) =>
+                            `- ${item.code} (${item.desc})`
                     )
                     .join("\n");
 
-                const details = `🏫 Trường: ${selectedSchool.ten_truong}\n Các Phương thức Xét tuyển hiện có:\n${ptxt}`;
+                const details = `🏫 Trường: ${selectedSchool.ten_truong}\n Các Phương thức Xét tuyển hiện có:\n${ptxt}\n\nĐã kết thúc lượt, hãy gửi uni!help để bắt đầu lại💖`;
 
                 await message.reply({ t: details });
 
@@ -627,6 +660,17 @@ main()
     .then(() => console.log("🤖 Bot started"))
     .catch((err) => console.error(err));
 
+import http from "http";
+
+const port = process.env.PORT || 3000;
+http
+  .createServer((req, res) => {
+    res.end("UniPal is running!");
+  })
+  .listen(port, () => {
+    console.log(`🌐 Server is listening on port ${port}`);
+  });
+    
 function formatScrapedData(data) {
     return data
         .map((section) => {
