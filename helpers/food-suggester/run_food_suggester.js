@@ -3,7 +3,7 @@ import { spawn } from "child_process";
 export default function runFoodSuggester(location) {
     return new Promise((resolve, reject) => {
         const py = spawn("python", [
-            "helpers/apis/food_suggester.py",
+            "helpers/food-suggester/food_suggester.py",
             location,
         ]);
 
